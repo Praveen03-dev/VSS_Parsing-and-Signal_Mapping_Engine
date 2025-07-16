@@ -1,0 +1,1 @@
+# Auto-generates mapping.yml from VSS using fuzzy matching

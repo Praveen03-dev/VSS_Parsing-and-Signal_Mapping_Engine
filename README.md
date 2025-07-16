@@ -1,1 +1,3 @@
-# VSS_Parsing-and-Signal_Mapping_Engine
+# VSS Parsing and Signal Mapping Engine
+
+This project maps VSS signals to Android VHAL format.

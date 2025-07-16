@@ -1,0 +1,1 @@
+# Parses Android's types.hal and extracts aospId → type mappings
