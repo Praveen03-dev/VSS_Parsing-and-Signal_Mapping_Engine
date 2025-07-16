@@ -1,1 +1,76 @@
-# Output mapping file
+Vehicle.ADAS.ABS.IsEngaged:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.ADAS.LaneKeepAssist.IsActive:
+  aospArea: VehicleArea::GLOBAL
+  aospId: VehicleProperty::ABS_ACTIVE
+  vhal_type: INT32
+Vehicle.Body.Doors.FrontLeft.IsOpen:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Body.Doors.FrontRight.IsOpen:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Body.Trunk.IsOpen:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Chassis.Axle.Row1.Wheel.Left.Tire.Pressure:
+  aospArea: VehicleArea::WHEEL
+  aospId: VehicleProperty::TIRE_PRESSURE
+  vhal_type: FLOAT
+Vehicle.Chassis.Axle.Row1.Wheel.Right.Tire.Pressure:
+  aospArea: VehicleArea::WHEEL
+  aospId: VehicleProperty::TIRE_PRESSURE
+  vhal_type: FLOAT
+Vehicle.Lighting.Brake.IsBrakeLightOn:
+  aospArea: VehicleArea::GLOBAL
+  aospId: VehicleProperty::BRAKE_LIGHTS
+  vhal_type: BOOLEAN
+Vehicle.Lighting.Head.IsHighBeamOn:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Lighting.Head.IsLowBeamOn:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Odometer:
+  aospArea: VehicleArea::GLOBAL
+  aospId: VehicleProperty::ODOMETER
+  vhal_type: FLOAT
+Vehicle.Powertrain.CombustionEngine.OilTemperature:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Powertrain.CombustionEngine.RPM:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Powertrain.ElectricMotor.Current:
+  aospArea: VehicleArea::GLOBAL
+  aospId: VehicleProperty::CURRENT_SENSOR
+  vhal_type: FLOAT
+Vehicle.Powertrain.ElectricMotor.Voltage:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Powertrain.FuelSystem.Level:
+  aospArea: VehicleArea::GLOBAL
+  aospId: VehicleProperty::FUEL_LEVEL
+  vhal_type: FLOAT
+Vehicle.Powertrain.FuelSystem.Range:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Speed:
+  aospArea: null
+  aospId: null
+  vhal_type: null
+Vehicle.Steering.WheelAngle:
+  aospArea: null
+  aospId: null
+  vhal_type: null

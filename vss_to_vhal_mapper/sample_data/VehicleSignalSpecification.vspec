@@ -1,1 +1,71 @@
-# Sample VSS file
+Vehicle:
+  Speed:
+    type: float
+    unit: km/h
+  Odometer:
+    type: float
+    unit: km
+  Steering:
+    WheelAngle:
+      type: float
+      unit: deg
+  Powertrain:
+    CombustionEngine:
+      RPM:
+        type: float
+      OilTemperature:
+        type: float
+        unit: C
+    ElectricMotor:
+      Voltage:
+        type: float
+        unit: V
+      Current:
+        type: float
+        unit: A
+    FuelSystem:
+      Level:
+        type: float
+        unit: percent
+      Range:
+        type: float
+        unit: km
+  Body:
+    Doors:
+      FrontLeft:
+        IsOpen:
+          type: boolean
+      FrontRight:
+        IsOpen:
+          type: boolean
+    Trunk:
+      IsOpen:
+        type: boolean
+  Lighting:
+    Head:
+      IsHighBeamOn:
+        type: boolean
+      IsLowBeamOn:
+        type: boolean
+    Brake:
+      IsBrakeLightOn:
+        type: boolean
+  ADAS:
+    ABS:
+      IsEngaged:
+        type: boolean
+    LaneKeepAssist:
+      IsActive:
+        type: boolean
+  Chassis:
+    Axle:
+      Row1:
+        Wheel:
+          Left:
+            Tire:
+              Pressure:
+                type: float
+          Right:
+            Tire:
+              Pressure:
+                type: float

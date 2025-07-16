@@ -1,1 +1,14 @@
-// Sample Android HAL definitions
+enum VehicleProperty : int32_t {
+    PERF_VEHICLE_SPEED = 0x00020100,    // float | VehicleArea: GLOBAL
+    ODOMETER = 0x00020200,              // float | VehicleArea: GLOBAL
+    ENGINE_RPM = 0x00020201,            // float | VehicleArea: GLOBAL
+    FUEL_LEVEL = 0x00020500,            // float | VehicleArea: GLOBAL
+    HEADLIGHTS_STATE = 0x00020300,      // int32 | VehicleArea: GLOBAL
+    BRAKE_LIGHTS = 0x00020301,          // boolean | VehicleArea: GLOBAL
+    DOOR_OPEN = 0x00020400,             // boolean | VehicleArea: DOOR
+    TIRE_PRESSURE = 0x00020600,         // float | VehicleArea: WHEEL
+    ABS_ACTIVE = 0x00020700,            // int32 | VehicleArea: GLOBAL
+    CURRENT_SENSOR = 0x00020800,        // float | VehicleArea: GLOBAL
+    UNKNOWN_PROPERTY_1 = 0x00020900,    // float | VehicleArea: GLOBAL
+    UNKNOWN_PROPERTY_2 = 0x00021000,    // string | VehicleArea: GLOBAL
+};
